@@ -1,0 +1,91 @@
+:root {
+  --color: #ffe15d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-site {
+  width: 100%;
+  height: 500vh;
+}
+
+.pages-site {
+  height: 100vh;
+  background-color: rgba(72, 191, 227, 1);
+  background-image: radial-gradient(
+      at 87% 26%,
+      rgba(136, 246, 231, 0.07) 0%,
+      transparent 37%
+    ),
+    radial-gradient(at 5% 10%, rgba(105, 48, 195, 1) 0%, transparent 57%),
+    radial-gradient(at 94% 62%, rgba(78, 168, 222, 1) 0%, transparent 50%),
+    radial-gradient(at 22% 89%, rgba(118, 120, 216, 1) 0%, transparent 50%),
+    radial-gradient(at 39% 73%, rgba(128, 255, 219, 1) 0%, transparent 54%),
+    radial-gradient(at 90% 92%, rgba(116, 0, 184, 1) 0%, transparent 50%);
+}
+
+.about-page,
+.skills-page {
+  transform: rotateX(180deg);
+}
+
+.about-page > div,
+.skills-page > div {
+  transform: rotateX(180deg);
+}
+
+.pages-site > div {
+  width: 100%;
+  height: 100%;
+}
+
+.pages-site > div > .row {
+  height: 100%;
+  width: 100%;
+}
+
+.pages-site > div > .row > .col-md-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.progress-side {
+  width: 70px;
+  height: 70px;
+  border: 8px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.progress-side::before {
+  content: "";
+  width: 8px;
+  height: calc(50% - 32px);
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.progress-side::after {
+  content: "";
+  width: 8px;
+  height: calc(50% - 32px);
+  background-color: white;
+  position: absolute;
+  top: 0;
+}
+
+.home-page > div > .row > .col-md-2 > div::after {
+  position: unset;
+}
+
+.contact-page > div > .row > .col-md-2 > div::before {
+  position: unset;
+}
