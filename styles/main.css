@@ -12,6 +12,10 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .body-site {
   width: 100%;
   height: 500vh;
@@ -128,82 +132,71 @@ li {
   }
 }
 
-/* .ul-menu {
+.menu-nav {
   display: flex;
-  align-items: center;
   justify-content: start;
+  align-items: center;
   height: 80px;
-  padding-left: 60px;
 }
 
-.ul-menu > .item-ul {
-  margin-left: 50px;
+.menu-items a {
   font-size: 20px;
   color: #fff;
+  margin: 0 10px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media screen and (max-width: 1200px) {
-  .ul-menu > .item-ul {
-    margin-left: 35px;
-    font-size: 20px;
-    color: #fff;
-  }
-  .ul-menu {
-    padding-left: 20px;
-  }
-}
-
-.menu-ham {
+.mobile-menu {
   display: none;
+  padding: 20px 15px;
 }
 
-@media screen and (max-width: 750px) {
-  .menu-ham {
+.ham-menu {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.ham-menu:hover span {
+  box-shadow: #ffe15d 0px 0px 30px 0px;
+}
+
+.ham-menu span {
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  transition: 300ms;
+}
+
+.ham-menu span:nth-child(1) {
+  transform: translateY(-12px);
+}
+
+.ham-menu span:nth-child(3) {
+  transform: translateY(12px);
+}
+
+@media screen and (max-width: 990px) {
+  .mobile-menu {
     display: flex;
   }
 
-  .menu-des {
+  .des-menu {
     display: none;
   }
-} */
 
-.home-page > div > .container-fluid {
-  padding: 0 70px;
-}
-
-.nav-link.text-light {
-  position: relative;
-  margin-left: 30px;
-  top: 3px;
-  font-size: 20px;
-}
-
-.navbar-toggler {
-  border: 2px solid #838383;
-}
-
-@media screen and (max-width: 1150px) {
-  .home-page > div > .container-fluid {
-    padding: 0 30px;
-  }
-
-  .nav-link.text-light {
-    position: relative;
-    margin-left: 20px;
-    top: 3px;
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .home-page > div > .container-fluid {
-    padding: 0;
-  }
-
-  .nav-link.text-light {
-    position: relative;
-    margin-left: 20px;
-    top: 3px;
-    font-size: 20px;
+  .menu-nav {
+    justify-content: end;
   }
 }
