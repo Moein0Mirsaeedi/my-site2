@@ -131,3 +131,11 @@ a {
 .navbar-brand {
   font-size: 25px;
 }
+
+.navbar {
+  transition: 500ms;
+}
+
+.navbar.scrollthis {
+  background-color: #fff;
+}
