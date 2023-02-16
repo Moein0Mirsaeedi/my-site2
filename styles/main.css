@@ -366,3 +366,62 @@ a {
     font-size: 2.2rem;
   }
 }
+
+/* Contact me page styles */
+.contact-title {
+  color: var(--color2);
+  font-size: 3.5rem;
+}
+
+.contact-title span {
+  color: var(--color1);
+}
+
+.contact-text {
+  color: var(--color2);
+  font-size: 1.5rem;
+}
+
+.border-left {
+  border-left: #ffe15d 5px solid;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .border-left {
+    border-left: none;
+  }
+
+  .border-left-1 {
+    border-left: #ffe15d 5px solid;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact-title {
+    font-size: 2.5rem;
+  }
+  .contact-text {
+    font-size: 0.8rem;
+  }
+}
+}
+
+@media screen and (max-width: 350px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+}
+
+.download-cart {
+  transition: 500ms;
+}
+
+.download-cart:hover {
+  opacity: 0.5;
+}
