@@ -299,6 +299,10 @@ a {
   padding-left: 50px;
 }
 
+.padding-left-1 {
+  padding-left: 50px;
+}
+
 .progress {
   margin-left: -20px;
   height: 20px;
@@ -312,9 +316,15 @@ a {
   color: #000;
 }
 
+@media screen and (max-width: 1100px) {
+  .progress {
+    width: 75%;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .skills-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -326,16 +336,33 @@ a {
   .border-left-1 {
     border-left: #ffe15d 5px solid;
   }
+
+  .padding-left-1 {
+    padding-left: 12px;
+  }
+
+  .progress {
+    height: 15px;
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .skills-text span.i {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .skills-title {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
+  }
+  .skills-text {
+    font-size: 0.8rem;
   }
 }
 
 @media screen and (max-width: 350px) {
   .skills-title {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
   }
 }
