@@ -125,6 +125,7 @@ a {
   }
 }
 
+/* Navigation styles */
 .nav-link {
   font-size: 18px;
 }
@@ -141,6 +142,7 @@ a {
   background-color: #fff;
 }
 
+/* Home page styles */
 .home-name {
   font-size: 6rem;
 }
@@ -183,6 +185,8 @@ a {
   }
 }
 
+/* about me page styles */
+
 .about-title {
   color: var(--color2);
   font-size: 3.5rem;
@@ -199,9 +203,6 @@ a {
 
 .about-text span {
   color: var(--color1);
-}
-
-.about-text a {
 }
 
 @media screen and (max-width: 400px) {
@@ -222,6 +223,16 @@ a {
   }
 }
 
+/* my service page styles */
+.service-title {
+  color: var(--color2);
+  font-size: 3.5rem;
+}
+
+.service-title span {
+  color: var(--color1);
+}
+
 .service-text {
   color: var(--color2);
   font-size: 1.5rem;
@@ -240,5 +251,91 @@ a {
 @media screen and (max-width: 768px) {
   .border-left {
     border-left: none;
+  }
+
+  .border-left-1 {
+    border-left: #ffe15d 5px solid;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .service-title {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .service-title {
+    font-size: 2.8rem;
+  }
+}
+
+/* My skills page styles */
+.skills-title {
+  color: var(--color2);
+  font-size: 3.5rem;
+}
+
+.skills-title span {
+  color: var(--color1);
+}
+
+.skills-text {
+  color: var(--color2);
+  font-size: 1.5rem;
+}
+
+.skills-text span.i {
+  color: var(--color1);
+  font-size: 2rem;
+  margin-left: -20px;
+}
+
+.border-left {
+  border-left: #ffe15d 5px solid;
+}
+
+.padding-left {
+  padding-left: 50px;
+}
+
+.progress {
+  margin-left: -20px;
+  height: 20px;
+  width: 50%;
+  font-size: 16px;
+  border: #fff 2px solid;
+}
+
+.progress > div {
+  background-color: var(--color1);
+  color: #000;
+}
+
+@media screen and (max-width: 850px) {
+  .skills-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .border-left {
+    border-left: none;
+  }
+
+  .border-left-1 {
+    border-left: #ffe15d 5px solid;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .skills-title {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .skills-title {
+    font-size: 2.8rem;
   }
 }
