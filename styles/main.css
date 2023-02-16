@@ -140,3 +140,84 @@ a {
 .navbar.scrollthis {
   background-color: #fff;
 }
+
+.home-name {
+  font-size: 6rem;
+}
+
+.home-about-me {
+  font-size: 1.8rem;
+  color: #e8e8e8;
+}
+
+.home-about-me span {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .home-name {
+    font-size: 3.5rem;
+  }
+
+  .home-about-me {
+    font-size: 1.2rem;
+    color: #e8e8e8;
+  }
+
+  .home-about-me span {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .home-name {
+    font-size: 3rem;
+  }
+
+  .home-about-me {
+    font-size: 1rem;
+  }
+
+  .home-about-me span {
+    font-size: 0.7rem;
+  }
+}
+
+.about-title {
+  color: var(--color2);
+  font-size: 3.5rem;
+}
+
+.about-title span {
+  color: var(--color1);
+}
+
+.about-text {
+  color: var(--color2);
+  font-size: 1.5rem;
+}
+
+.about-text span {
+  color: var(--color1);
+}
+
+.about-text a {
+}
+
+@media screen and (max-width: 400px) {
+  .about-title {
+    font-size: 3.2rem;
+  }
+  .about-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .about-title {
+    font-size: 2.8rem;
+  }
+  .about-text {
+    font-size: 1rem;
+  }
+}
