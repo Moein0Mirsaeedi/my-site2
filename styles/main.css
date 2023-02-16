@@ -221,3 +221,24 @@ a {
     font-size: 1rem;
   }
 }
+
+.service-text {
+  color: var(--color2);
+  font-size: 1.5rem;
+}
+
+.border-left {
+  border-left: #ffe15d 5px solid;
+}
+
+@media screen and (max-width: 850px) {
+  .service-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .border-left {
+    border-left: none;
+  }
+}
