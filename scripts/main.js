@@ -6,8 +6,10 @@ for (const key of liElemMobileMenu) {
   });
 }
 
-window.addEventListener("scroll", function () {
-  if (window.pageYOffset > 0) {
+window.addEventListener("scroll", checkScroll);
+
+function checkScroll() {
+  if (window.pageYOffset > 1) {
     navbar.classList.add("scrollthis");
     navbar.classList.add("navbar-light");
     navbar.classList.remove("navbar-dark");
@@ -22,4 +24,6 @@ window.addEventListener("scroll", function () {
     navbar.classList.add("p-lg-4");
     navbar.classList.remove("p-lg-1");
   }
-});
+}
+
+checkScroll();
