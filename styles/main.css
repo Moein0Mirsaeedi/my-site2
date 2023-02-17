@@ -1,5 +1,5 @@
 :root {
-  --color1: #ffe15d;
+  --color1: #ffc107;
   --color2: #fff;
 }
 
@@ -205,6 +205,11 @@ a {
 
 .about-text span {
   color: var(--color1);
+}
+
+.btn-outline-warning {
+  transition: 200ms;
+  padding: 4px 8px;
 }
 
 @media screen and (max-width: 400px) {
