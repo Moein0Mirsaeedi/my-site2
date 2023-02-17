@@ -188,13 +188,15 @@ a {
 /* about me page styles */
 
 .about-title {
-  color: var(--color2);
+  color: var(--color1);
   font-size: 3.5rem;
+  /* border-bottom: var(--color1) 4px solid; */
+  /* width: max-content; */
 }
 
-.about-title span {
+/* .about-title span {
   color: var(--color1);
-}
+} */
 
 .about-text {
   color: var(--color2);
@@ -225,13 +227,13 @@ a {
 
 /* my service page styles */
 .service-title {
-  color: var(--color2);
+  color: var(--color1);
   font-size: 3.5rem;
 }
 
-.service-title span {
+/* .service-title span {
   color: var(--color1);
-}
+} */
 
 .service-text {
   color: var(--color2);
@@ -272,13 +274,13 @@ a {
 
 /* My skills page styles */
 .skills-title {
-  color: var(--color2);
+  color: var(--color1);
   font-size: 3.5rem;
 }
 
-.skills-title span {
+/* .skills-title span {
   color: var(--color1);
-}
+} */
 
 .skills-text {
   color: var(--color2);
@@ -369,13 +371,13 @@ a {
 
 /* Contact me page styles */
 .contact-title {
-  color: var(--color2);
+  color: var(--color1);
   font-size: 3.5rem;
 }
 
-.contact-title span {
+/* .contact-title span {
   color: var(--color1);
-}
+} */
 
 .contact-text {
   color: var(--color2);
@@ -409,7 +411,6 @@ a {
   .contact-text {
     font-size: 0.8rem;
   }
-}
 }
 
 @media screen and (max-width: 350px) {
