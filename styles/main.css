@@ -249,6 +249,10 @@ a {
   border-left: #ffe15d 5px solid;
 }
 
+.border-right {
+  border-right: #ffe15d 5px solid;
+}
+
 @media screen and (max-width: 850px) {
   .service-text {
     font-size: 1.2rem;
@@ -260,8 +264,16 @@ a {
     border-left: none;
   }
 
+  .border-right {
+    border-right: none;
+  }
+
   .border-left-1 {
     border-left: #ffe15d 5px solid;
+  }
+
+  .border-right-1 {
+    border-right: #ffe15d 5px solid;
   }
 }
 
