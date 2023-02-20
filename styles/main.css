@@ -443,3 +443,7 @@ a {
 .download-cart:hover {
   opacity: 0.5;
 }
+
+.hide {
+  display: none;
+}
