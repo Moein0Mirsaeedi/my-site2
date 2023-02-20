@@ -445,5 +445,7 @@ a {
 }
 
 .hide {
-  display: none;
+  position: absolute;
+  opacity: 0;
+  user-select: none;
 }
