@@ -1,6 +1,8 @@
 let $$ = document;
 let liElemMobileMenu = document.getElementsByClassName("nav-link");
 let navbar = document.getElementById("navbar");
+
+// add event for click item navbar
 for (const key of liElemMobileMenu) {
   key.addEventListener("click", function () {
     key.parentElement.parentElement.parentElement.classList.remove("show");
@@ -9,6 +11,7 @@ for (const key of liElemMobileMenu) {
 
 window.addEventListener("scroll", checkScroll);
 
+// add style for scroll page
 function checkScroll() {
   if (window.pageYOffset > 1) {
     navbar.classList.add("scrollthis");
@@ -26,13 +29,9 @@ function checkScroll() {
     navbar.classList.remove("p-lg-1");
   }
 }
-
 checkScroll();
 
-// get LocalStorage language
-
 // change language
-
 let languages = [
   {
     menuItem: ["خانه", "درباره من", "خدمات", "مهارت ها", "ارتباط با من"],
