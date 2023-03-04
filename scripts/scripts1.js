@@ -45,14 +45,20 @@ let languages = [
       `<h2 class="about-title">درباره من</h2>
               <br /><br />
               <p class="about-text">
-                اسم من <span>معین</span>. <br /><br />
-                دو سال سابقه در حوزه طراحب وب دارم
+               دو سال که در زمینه <span>طراحی وب</span> و
+                <span>برنامه نویسی</span> وب کار می کنم.
                 <br />
-                من <span>برنامه نویس</span>، <span>طراح وب</span> ،
-                <span>طراح گرافیک</span> و
+                و به زبان های <span>Html</span> , <span>Css</span> و
+                <span>JavaScript</span> مسلطم.
                 <br />
-                <span>ادیتور</span> هستم <br />
+                همچنین به فناوری های دیگه مثل <span>Bootstrap</span> ,
+                <span>Git</span> و <span>Sass</span> هم مسلطم.
+                <br />
+                مسلط به کار های <span>گرافیکی</span> و <span>ادیت</span>.
+                <br />
     
+              
+
                 مشاهده
     
                 <a
@@ -96,7 +102,7 @@ let languages = [
                     <hr />
                     آموزش برنامه نویسی و طراحی وب
                     <br />
-                    آموزش مباجحث کامپیوتر
+                    آموزش مباحث کامپیوتر
                   </span>
                 </div>
                 <div class="col col-12 col-md-6 service-text border-left">
@@ -248,12 +254,16 @@ let languages = [
               <br /><br />
               <p class="about-text">
                 My name is <span>Moein</span> <br /><br />
-                I have been working in web design for two years
+                I have been working in <span>web design</span> and
+                <span>programming</span> for two years. <br />
+                I am fluent in
+                <span>Html</span>, <span>CSS</span> and
+                <span>JavaScript</span> languages. <br />
+                I am also proficient in other technologies such as
+                <span>Bootstrap</span>, <span>Git</span>, <span>Sass</span>.
                 <br />
-                I'm <span>Programmer</span>, <span>Web designer</span> ,
-                <span>Graphic designer</span> ,
-                <br />
-                <span>Editor</span> and... <br />
+                Proficient in <span>graphics</span> and
+                <span>editing</span>.<br />
 
                 see my
 
